@@ -1,0 +1,19 @@
+Top left circle of city: 72.769167, 40.562582
+Pixels: 1435, 317
+
+Ayni St: 72.859072, 40.477395
+Pixels: 2483, 1624
+
+left to right: 0.085187
+pixels: 1048
+1px = 0.0000812853
+
+top to bottom:0.089905
+1307
+1 px = 0.00006878729
+
+1 degree of latitude on the sphere is 111.2 km or 69 miles. 
+1 minute of latitude is 1.853 km, or 1.15 miles
+
+right road point: 72.844373, 40.537319 
+2312, 704

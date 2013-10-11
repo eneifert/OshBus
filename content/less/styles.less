@@ -1,0 +1,78 @@
+@imgs: '../../imgs';
+
+@imgHeight: 2000px;
+@imgWidth: 3500px;
+
+body {
+	margin: 0px;
+}
+
+#MapContent {
+	margin: 0px;
+	position: relative;
+	overflow: hidden;
+	margin: auto;
+	height: 100%;
+	width: 100%;		
+	background-color: #222;
+}
+
+#OshMap {	 
+	position:relative;
+	background-image: url('@{imgs}/OshMap_v2.gif');
+	 
+	height: @imgHeight;	
+	width: @imgWidth;
+	z-index: 10;
+	left:-750px;
+	top:-300px;		
+}
+
+.busstop-container {
+	position: relative;
+}
+.busstop {	
+	position: relative;	
+	
+	background: url("@{imgs}/bus_stop.jpg") no-repeat;
+	width: 11px;
+	height: 14px;
+	z-index: 1010;	
+	
+	margin-top: -14px;
+	margin-bottom: -14px;
+	margin-left: -11px;
+}
+
+.start, .end, .busstop:hover {
+	background-color: #ccc;
+	// padding: 10px;			
+	padding: 0 10px 20px 10px;
+	
+	top:-20px;
+	margin-left: -21px;
+	margin-bottom: -34px;	
+
+	background-position: 10px 10px;
+	border-radius: 15px;
+	
+	cursor:pointer;
+}
+.start {
+	background-color: green;
+}
+
+.end {
+	background-color: red;
+}
+
+.bus-101 {
+  background-image: url("@{imgs}/bus101.gif");
+  position: relative;
+  
+  width: @imgWidth;
+  height: @imgHeight;
+  // margin-left: -@imgWidth;
+  // margin-top: -@imgHeight;
+  z-index: 1000;
+}
